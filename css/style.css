@@ -1,0 +1,181 @@
+@charset "UTF-8";
+#wrap > .head_nexon {
+  position: relative;
+  height: 60px;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+#wrap > .head_nexon > .menu {
+  position: absolute;
+  width: 105px;
+  height: 100%;
+}
+#wrap > .head_nexon > .menu > .icon_mnu {
+  display: block;
+  position: absolute;
+  top: 19px;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  background-color: #000; /* 햄버거 버튼 색 */
+  background-image: url(./../images/head/icon_mnu.png);
+  background-position-x: 2px;
+  background-position-y: 2px;
+}
+#wrap > .head_nexon > .menu > .text_mnu {
+  position: absolute;
+  top: 19px;
+  left: 48px;
+  font-weight: 800;
+  font-size: 17px;
+}
+#wrap > .head_nexon > .logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  height: 60px;
+  background-image: url(./../images/head/logo_nexon.png);
+  background-position: center;
+  text-indent: -9999px;
+}
+#wrap > .head_nexon > .logo > a {
+  display: block;
+  height: 60px;
+}
+#wrap > .head_nexon > .client {
+  display: flex;
+  position: absolute;
+  top: 12px;
+  right: 30px;
+}
+#wrap > .head_nexon > .client > .card {
+  display: block;
+  position: absolute;
+  top: -12px;
+  left: -40px;
+  width: 25px;
+  margin-right: 17px;
+  background-image: url(./../images/head/icon_client.png);
+  background-position: 0px 20px;
+  background-color: #000;
+  text-indent: -9999px;
+  box-sizing: border-box;
+}
+#wrap > .head_nexon > .client > .card > a {
+  display: block;
+  height: 57px;
+}
+#wrap > .head_nexon > .client > .card > a:after {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  display: block;
+  content: "";
+  background-color: #fff;
+  width: 26px;
+  height: 21px;
+}
+#wrap > .head_nexon > .client > .pcRoom {
+  width: 25px;
+  margin-top: 1px;
+  margin-right: 12px;
+  background-image: url(./../images/head/icon_client.png);
+  background-position: 0px -43px;
+  background-color: #000;
+  text-indent: -9999px;
+}
+#wrap > .head_nexon > .client > .join {
+  display: block;
+  margin-right: 10px;
+  color: #535757;
+  line-height: 38px;
+  font-size: 13px;
+  font-weight: 570;
+}
+#wrap > .head_nexon > .client > .logIn {
+  display: block;
+  width: 90px;
+  height: 36px;
+  line-height: 34px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+#wrap > .head_nexon > .client > .logIn:hover {
+  color: white;
+  background-color: #0077FF;
+  border-color: transparent;
+  transition: all 0.5s;
+}
+#wrap > .head_vx {
+  position: relative;
+  height: 80px;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+#wrap > .head_vx > .logo {
+  position: absolute;
+  width: 245px;
+  height: 100%;
+  background-image: url(./../images/head/logo_vx.png);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: 35px center;
+}
+#wrap > .head_vx > .logo > a {
+  display: block;
+  height: 100%;
+}
+#wrap > .head_vx > nav {
+  position: absolute;
+  left: 500px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+#wrap > .head_vx > .log_in {
+  position: absolute;
+  right: 300px;
+  width: 9%;
+  height: 100%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+#wrap > .head_vx > .log_in > .logo {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background-image: url(./../images/head/nexon_login.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#wrap > .head_vx > .log_in > a {
+  display: block;
+  font-weight: 800;
+  font-size: 14px;
+}
+#wrap > .head_vx > .start {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 250px;
+  height: 58px;
+  background-image: url(./../images/head/gameStart.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#wrap > .head_vx > .start > a {
+  display: block;
+  height: 100%;
+  line-height: 58px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.7);
+}/*# sourceMappingURL=style.css.map */
